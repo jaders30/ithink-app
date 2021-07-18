@@ -38,10 +38,9 @@ body {
 
 .question-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 500px;
 }
 
 .category-selector {
@@ -72,7 +71,7 @@ body {
 .titleCard strong {
   color: rgb(182, 90, 90);
   font-size: 40px;
-  display: block;
+
   margin-bottom: 3px;
 }
 

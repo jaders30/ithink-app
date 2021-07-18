@@ -4,7 +4,7 @@ export default function TitleCard() {
   return (
     <div className="titleCard">
       <span>
-        <strong>TRIVIA APP</strong>
+        <strong>TRIVIA GAME</strong>
       </span>
     </div>
   );
