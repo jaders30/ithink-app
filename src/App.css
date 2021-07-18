@@ -6,8 +6,8 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  font-size: 19px;
-  display: flex;
+  font-size: 15px;
+  display: flex-block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -17,6 +17,7 @@ body {
 }
 
 .app {
+  margin: 0 auto;
   max-width: 500px;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -39,9 +40,14 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .category-selector {
+  margin-left: 5px;
+  margin-right: 15px;
+
   max-width: 60%;
 }
 
@@ -57,6 +63,7 @@ body {
 
 .titleCard {
   display: flex;
+  margin: 0 auto;
   align-items: center;
   text-align: center;
   font-size: 16px;
@@ -71,6 +78,8 @@ body {
 
 .scoreboard {
   display: flex;
+  margin-left: 15px;
+
   align-items: center;
   text-align: right;
   font-size: 16px;
@@ -169,7 +178,7 @@ body {
   min-width: 500px;
   max-width: 90%;
   min-height: 350px;
-  display: flex;
+
   align-items: center;
 }
 
@@ -217,8 +226,9 @@ button:hover {
   background: #ccc;
   border-color: #aaa;
   color: #777;
-  width: auto;
+  width: 500px;
   margin-left: auto;
+
   font-size: 12px;
   padding: 10px 20px;
 }
